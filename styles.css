@@ -7,12 +7,9 @@ body {
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
+	width: 1200px;
 
-	width: 100%;
+	margin: 0 auto;
 }
 
 nav {
@@ -20,8 +17,6 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
-
-	width: 100%;
 
 	margin: 3rem;
 }
@@ -60,9 +55,9 @@ nav .active:hover {
 }
 
 h1 {
-	display: block;
-
 	background-color: darkorange;
+
+	width: fit-content;
 
 	margin: 30px auto;
 	padding: 1rem 2rem;
