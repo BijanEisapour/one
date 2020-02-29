@@ -1,4 +1,17 @@
 body {
 	background-color: #232323;
-	color: rgb(0, 110, 255);
+	color: #dddddd;
+}
+
+h1 {
+	display: block;
+
+	background-color: crimson;
+
+	margin: 30px auto;
+	padding: 1rem 2rem;
+
+	border-radius: 1em;
+
+	text-align: center;
 }
