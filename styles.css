@@ -3,6 +3,15 @@ body {
 	color: #dddddd;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+
+	width: 100%;
+}
+
 h1 {
 	display: block;
 
