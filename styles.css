@@ -2,7 +2,7 @@ body {
 	background-color: #232323;
 	color: #dddddd;
 
-	font-family: "Calibri" sans-serif;
+	font-family: "Calibri", sans-serif;
 	font-size: 62.5%;
 }
 
@@ -22,14 +22,27 @@ nav {
 	align-items: flex-start;
 
 	width: 100%;
+
+	margin: 3rem;
 }
 
 nav span {
 	display: inline-block;
 
-	padding: 0.5rem 1rem;
+	margin: 0 0 0 2rem;
+	padding: 0.5rem 1.5rem;
 
 	font-size: 2.4rem;
+
+	cursor: pointer;
+}
+
+nav span:nth-child(1) {
+	margin: 0;
+}
+
+nav span:hover {
+	color: darkorange;
 }
 
 nav .active {
@@ -37,6 +50,13 @@ nav .active {
 	color: #232323;
 
 	border-radius: 1rem;
+
+	cursor: default;
+}
+
+nav .active:hover {
+	background-color: #dddddd;
+	color: #232323;
 }
 
 h1 {
